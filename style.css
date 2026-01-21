@@ -298,6 +298,7 @@ footer.footer {
 
 /* WhatsApp floating button */
 .whatsapp-btn {
+  display: inline-block;
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
