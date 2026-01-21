@@ -296,6 +296,33 @@ footer.footer {
   background: rgba(0, 0, 0, 0.2);
 }
 
+/* WhatsApp floating button */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  width: 48px;
+  height: 48px;
+  background: #25D366;
+  /* WhatsApp green */
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-btn:hover {
+  transform: scale(1.08);
+}
+
+.whatsapp-btn img {
+  width: 24px;
+  height: 24px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero-image {
