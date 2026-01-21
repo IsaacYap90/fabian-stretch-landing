@@ -25,7 +25,7 @@ html,
 body {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  color: var(--accent);
+  color: #fff;
   background: #000000;
   overflow-x: hidden;
 }
@@ -84,8 +84,14 @@ nav.nav {
 .logo {
   font-size: 1.8rem;
   font-weight: 700;
-  color: var(--accent);
+  color: var(--text-light);
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+/* Hero title and subtitle in red */
+.hero-title,
+.hero-subtitle {
+  color: var(--accent);
 }
 
 .nav-links {
