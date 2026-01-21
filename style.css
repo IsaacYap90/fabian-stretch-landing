@@ -25,8 +25,8 @@ html,
 body {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  color: var(--text-light);
-  background: var(--bg-gradient);
+  color: var(--accent);
+  background: #000000;
   overflow-x: hidden;
 }
 
